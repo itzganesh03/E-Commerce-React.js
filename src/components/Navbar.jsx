@@ -1,4 +1,6 @@
 import React from "react";
+import SearchIcon from "@material-ui/icons/Search"
+
 
 function Navbar() {
   return (
@@ -9,7 +11,7 @@ function Navbar() {
           <div className="language cursor-pointer text-[16px]">English</div>
           <div className="searchInput">
             <input className="input" type="text" />
-            <Search></Search>
+                  <SearchIcon/>
           </div>
         </div>
 
