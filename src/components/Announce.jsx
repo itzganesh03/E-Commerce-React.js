@@ -1,11 +1,17 @@
 import { Close } from '@material-ui/icons'
-import React from 'react'
+import React, { useState } from 'react'
 
 function Announce() {
+
+const[announceStyle, setAnnounceStyle] = useState('bg-[#8a4af3] font-bold text-white flex items-center justify-center')
+
+  const handleclose = ()=> {
+    setAnnounceStyle(announceStyle + " hidden")
+  }
   return (
-    <div>
+    <div className={announceStyle}>
         <h2> Announcement</h2>
-        <Close/>
+        <Close className='cursor-pointer' onClick={handleclose}/>
     </div>
   )
 }
