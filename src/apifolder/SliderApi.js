@@ -1,19 +1,19 @@
 export const ApiSlides = [
     {
-      src: "https://image.freepik.com/free-photo/happy-woman-shopping-with-shopping-bags_1150-20495.jpg",
+      src: "https://media.istockphoto.com/photos/concept-of-shopping-purchases-and-sales-of-happy-girl-with-packages-picture-id1263342134?k=20&m=1263342134&s=612x612&w=0&h=K9J0qOtlnxh2b8OrlSsJ0JWpOTtNigeLhpJVdkRUjwk=",
       content: {
         h2: "Amazing Deals this Summer",
         p: "Upto 40% off",
       },
-      background: ' bg-[#c6e400]'
+      background: ' bg-[#fe9d10]'
     },
     {
-      src: 'https://st3.depositphotos.com/7713882/17906/i/600/depositphotos_179068502-stock-photo-happy-woman-showing-good-big.jpg',
+      src: 'https://media.istockphoto.com/photos/stylish-shopaholic-with-purchases-picture-id1169378197?k=20&m=1169378197&s=612x612&w=0&h=QuZ4laEcaxPzCVOt57C8cDiDgZPGU_9LrVkZ2OjPEsY=',
       active: true,
       content: {
-        h2: "Bhai mein dosry number wala hn",
+        h2: "Deal Of The Day",
         p: "Upto 40% off",
       },
-      background: ' bg-[#ffd028]'
+      background: ' bg-[#ffb202]'
     },
     ]
