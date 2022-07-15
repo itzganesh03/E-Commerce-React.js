@@ -46,7 +46,7 @@ function Slider() {
                 <img
                   className =' h-[100%] object-cover'
                   src={slide.src}
-                  alt="man"
+                  alt="Slider image "
                 />
                 </div>
                 <div className="discription flex flex-col flex-1 place-items-start justify-center ml-11">
